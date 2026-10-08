@@ -1,5 +1,5 @@
 const messages = [
-  "Virus đã xâm nhập!"
+  "Nhớ Nhớ Em"
 ];
 
 function generateRandomNotifications() {
@@ -14,7 +14,7 @@ function generateRandomNotifications() {
       notification.innerHTML = `
         <div class="notification-header">
           <button class="minimize-btn" onclick="minimizeNotification(this)">–</button>
-          <span>Phát hiện</span>
+          <span>Tràn Ngập</span>
         </div>
         <p>${randomMessage}</p>
       `;
